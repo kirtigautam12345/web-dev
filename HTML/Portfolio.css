@@ -1,0 +1,30 @@
+h1 {
+  color: palevioletred;
+}
+
+/* * {
+  color: brown;
+} */
+
+#name {
+  background-color: peru;
+}
+
+.me {
+  background-color: plum;
+}
+
+/* .nav {
+  background-color: magenta;
+}
+
+.nav:hover {
+  background-color: palegreen;
+} */
+
+a:link {
+  color: palegreen;
+}
+a:visited {
+  color: brown;
+}

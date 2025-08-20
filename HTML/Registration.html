@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="/submit">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+      /><br />
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" placeholder="Enter your age" />
+      <h3>Gender:</h3>
+      <label for="male">Male:</label>
+      <input type="radio" name="gender" id="male" /><br />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" /><br />
+      <label for="others">Others:</label>
+      <input type="radio" name="gender" id="others" /><br />
+      <h3>Country:</h3>
+      <select name="country">
+        <option value="select">Select Country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="Germany">Germany</option>
+      </select>
+      <h3>Skills:</h3>
+      <br />
+      <label for="java">Java</label>
+      <input type="checkbox" name="java" id="java" /><br />
+      <label for="c">C Programming</label>
+      <input type="checkbox" name="c" id="c" /><br />
+      <label for="python">Python</label>
+      <input type="checkbox" name="python" id="python" /><br />
+      <h3>Upload Resume</h3>
+      <input
+        type="file"
+        name="resume"
+        id="resume"
+        accept=".pdf"
+        required
+      /><br /><br />
+      <input type="submit" name="submit" id="submit" />
+    </form>
+  </body>
+</html>
