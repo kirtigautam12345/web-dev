@@ -25,6 +25,11 @@ h1 {
 a:link {
   color: palegreen;
 }
+
 a:visited {
   color: brown;
+}
+
+body {
+  background-color: rgba(176, 224, 230, 0.9);
 }

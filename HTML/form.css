@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(234, 237, 238);
+}
+h1 {
+  text-align: center;
+  text-decoration: wavy underline;
+}
+
+#outer {
+  margin: auto;
+  background-color: white;
+  height: 2000px;
+  width: 500px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#div1 {
+  margin: 20px;
+  background-color: pink;
+  font-size: larger;
+  height: 700px;
+  width: 410px;
+  border-radius: 10px;
+  border: 2px solid rgb(66, 140, 140);
+  padding: 20px;
+}
+
+div input {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 30px;
+  width: 30;
+}
+button {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+section button {
+  color: white;
+  background-color: rgb(23, 23, 96);
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+#div2 {
+  margin: 20px;
+  background-color: pink;
+  font-size: larger;
+  width: 410px;
+  border-radius: 10px;
+  border: 2px solid rgb(66, 140, 140);
+  height: 500px;
+  padding: 20px;
+}
+
+#div3 {
+  margin: 20px;
+  background-color: pink;
+  font-size: larger;
+  width: 410px;
+  border-radius: 10px;
+  border: 2px solid rgb(66, 140, 140);
+  height: 350px;
+  padding: 20px;
+}
