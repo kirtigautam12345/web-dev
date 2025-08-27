@@ -46,8 +46,3 @@ footer {
   color: white;
   padding: 10px;
 }
-
-#text::selection {
-  background-color: yellow;
-  color: green;
-}
