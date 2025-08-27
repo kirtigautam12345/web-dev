@@ -1,7 +1,7 @@
 .outer {
   height: 400px;
   width: 400px;
-  border: 2px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.689);
   display: grid;
   grid-template-columns: repeat(8, 1fr);
 }
