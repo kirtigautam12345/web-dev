@@ -1,8 +1,22 @@
+#heading {
+  text-align: center;
+  color: rgb(35, 120, 120);
+  text-transform: uppercase;
+}
+#heading:hover {
+  box-shadow: 0px 8px 16px darkcyan;
+  transition: 0.5s;
+}
+
 h1,
 h2 {
   text-align: center;
   color: rgb(50, 50, 150);
   text-transform: uppercase;
+}
+#line:hover {
+  box-shadow: 0px 8px 16px purple;
+  transition: 0.5s;
 }
 
 p {
@@ -15,12 +29,18 @@ body {
   background-color: #f0f8ff;
   background-image: url("/HTML/Image/bgc_img.avif");
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
 }
 
 header {
-  background-color: palegreen;
+  background-color: gray;
   padding: 15px;
+}
+
+header:hover {
+  background-color: rgb(60, 181, 222);
+  box-shadow: 0px 8px 16px black;
+  transition: 0.5s;
 }
 
 .nav {
@@ -30,10 +50,6 @@ header {
   font-weight: bold;
 }
 
-header:hover {
-  background-color: palevioletred;
-}
-
 td,
 th {
   padding: 5px;
@@ -41,8 +57,27 @@ th {
 
 footer {
   text-align: center;
-  font-size: 14px;
-  background-color: #222;
-  color: white;
+  color: black;
   padding: 10px;
+}
+
+#para {
+  color: blue;
+}
+
+.table {
+  background-color: rgb(97, 43, 147);
+}
+
+button {
+  background-color: rgb(9, 39, 146);
+  color: white;
+}
+
+input {
+  background-color: rgb(211, 211, 244);
+}
+
+textarea {
+  background-color: rgb(211, 211, 244);
 }

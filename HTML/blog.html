@@ -7,33 +7,33 @@
     <link rel="stylesheet" href="blog.css" />
   </head>
   <body>
+    <h1 id="heading">Welome to Kirti's Blog</h1>
     <header>
-      <h1>Welome to Kirti's Blog</h1>
       <h4><i>Sharing thoughts on Technologies, Cloud, and Life</i></h4>
       <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#blog posts">Blog Posts</a>
+        <a href="#home">Home</a>&nbsp; <a href="#about">About</a>&nbsp;
+        <a href="#blogposts">Blogposts</a>&nbsp;
         <a href="#contact">Contact</a>
       </nav>
       <hr />
     </header>
     <section>
-      <h2>About Me</h2>
+      <h2 id="line">About Me</h2>
       <p>
         Hello! I am <b>Kirti Gautam</b>, a Cloud Engineer and Trainer. I love
-        working with <u id="text">AWS</u>.building IoT projects, and teaching
-        students.
+        working with <u>AWS</u>.building IoT projects, and teaching students.
       </p>
       <img src="/img" alt="Profile Image" />
       <hr />
     </section>
     <section>
-      <h2>Latest Blog Posts</h2>
+      <h2 id="line">Latest Blog Posts</h2>
       <h3>My Journey with Cloud Computing</h3>
-      I started working on AWS and gradually explored <u>Terraform</u>,
-      <u>Docker</u>, and <u>Kubernetes</u>. It has been an exciting journey of
-      learning and teaching. <br />
+      <p>
+        I started working on AWS and gradually explored <u>Terraform</u>,
+        <u>Docker</u>, and <u>Kubernetes</u>. It has been an exciting journey of
+        learning and teaching.
+      </p>
       <h3>Key Tools I Use:</h3>
       <ul>
         <li>Amazon Web Services</li>
@@ -52,10 +52,10 @@
         <li>JavaScript</li>
       </ol>
       <hr />
-      <h1>Upcoming Training Schedule</h1>
+      <h1 id="line">Upcoming Training Schedule</h1>
       <table border="black">
         <thead>
-          <tr>
+          <tr class="table">
             <th>Date</th>
             <th>Topic</th>
             <th>Duration</th>
@@ -76,9 +76,9 @@
       </table>
     </section>
     <hr />
-    <section>
+    <footer>
       <form>
-        <h1>Contact Me</h1>
+        <h1 id="line">Contact Me</h1>
         <label for="name">Your Name:</label><br />
         <input type="text" name="name" id="name" /><br />
         <label for="email">Email Address:</label><br />
@@ -87,8 +87,8 @@
         <textarea name="message" id="message"></textarea><br />
         <button>Send</button>
       </form>
-      <hr />
-      <p><u>@ Kirti's Blog</u></p>
-    </section>
+    </footer>
+    <hr />
+    <p id="para"><u>@ Kirti's Blog</u></p>
   </body>
 </html>
